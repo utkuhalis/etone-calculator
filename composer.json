@@ -16,6 +16,9 @@
         "php": "^8.2"
     },
     "autoload": {
+        "files": [
+            "src/init.php"
+        ],
         "psr-4": {
             "Plugins\\Calculator\\": "src/"
         }
