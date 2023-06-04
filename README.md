@@ -1,2 +1,2 @@
 # etone-market
- eTone v8 Market Plugin
+ eTone v8 Calculator Plugin

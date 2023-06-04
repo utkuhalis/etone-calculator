@@ -1,0 +1,28 @@
+{
+    "name": "utkuhalis/etone-calculator",
+    "description": "eTone v8 Calculator Plugin.",
+    "homepage": "https://github.com/utkuhalis/etone-calculator",
+    "license": "GNU General Public License v3.0",
+    "minimum-stability": "dev",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Utku Halis",
+            "email": "personal@utkuhalis.com.tr"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\Calculator\\": "src/"
+        }
+    },
+    "config": {
+        "lock": false,
+        "sort-packages": true,
+        "platform-check": true
+    }
+}
