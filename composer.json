@@ -5,7 +5,7 @@
     "license": "AGPL-3.0-or-later",
     "minimum-stability": "dev",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0",
     "authors": [
         {
             "name": "Utku Halis",
@@ -13,9 +13,12 @@
         }
     ],
     "require": {
-        "php": "^7.4"
+        "php": "^8.2"
     },
     "autoload": {
+        "files": [
+            "src/init.php"
+        ],
         "psr-4": {
             "Plugins\\Calculator\\": "src/"
         }
