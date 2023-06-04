@@ -2,7 +2,7 @@
     "name": "utkuhalis/etone-calculator",
     "description": "eTone v8 Calculator Plugin.",
     "homepage": "https://github.com/utkuhalis/etone-calculator",
-    "license": "GNU General Public License v3.0",
+    "license": "AGPL-3.0-or-later",
     "minimum-stability": "dev",
     "type": "library",
     "version": "1.0.0",
